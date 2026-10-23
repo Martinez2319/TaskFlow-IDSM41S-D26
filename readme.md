@@ -1,4 +1,8 @@
-# TaskFlow - Proyecto Colaborativo DevOps Jose Ramon Caro Salas
+# TaskFlow — proyecto colaborativo DevOps
+
+Gestor de tareas por consola con Python y persistencia en un archivo JSON.
+
+Referencia académica del proyecto: Jose Ramon Caro Salas.
 
 ## Rol del líder
 Este repositorio es gestionado bajo metodología DevOps.
@@ -16,6 +20,7 @@ Ejemplo: Veronica– delete_task
 ## Ejecución
 ```bash
 python main.py
+```
 
 ## Flujo DevOps 
 
@@ -30,7 +35,7 @@ python main.py
 9. Merge a main
 10. Integración final del sistema
 
-#archivos y funcionamiento:
+## Archivos y funcionamiento
 
 Revisión de main.py
 Se identificó que este módulo funciona como punto de entrada y coordina el menú, la interacción con el usuario, las operaciones de las tareas y el almacenamiento de la información donde se observan las importaciones de tasks.py, storage.py y utils.py, así como la función principal del sistema, 
